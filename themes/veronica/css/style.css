@@ -1,0 +1,104 @@
+* {
+    box-sizing: border-box;
+    border: 0 none;
+    margin: 0;
+    padding: 0;
+}
+
+.hidden {
+    display: none !important;
+}
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0 none;
+}
+
+.slide {
+    overflow-y: hidden !important;
+    -webkit-transition: height 0.5s ease-in !important;
+    transition: height 0.5s ease-in !important;
+}
+
+/* Basic layout
+*/
+
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.main {
+    flex: 1 0 auto;
+}
+
+.header, .footer {
+    flex: 0 0 auto;
+}
+
+.main {
+    padding: 5em 0 4em;
+}
+
+.container {
+    max-width: 50em;
+    padding: 0 0.5em;
+    margin: 0 auto;
+}
+
+.flash-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 50em;
+}
+
+
+.container ul {
+    padding: 2em;
+    padding-top: 0.5em;
+}
+
+.container a {
+    text-decoration: none;
+    color: black;
+}
+
+.container a:hover {
+    text-decoration: underline;
+}
+
+/* home
+*/
+.container img {
+    max-width: 200px;
+    float: right;
+    margin: 0 0 0 2em;
+}
+
+/* Footer
+*/
+.site-footer {
+    background-color: rgb(129, 170, 132);
+    text-align: center;
+}
+
+.site-footer .social {
+    float: right;
+    padding: 1.5em 0 1.5em 1em;
+    font-size: 2rem;
+}
+
+.site-footer p {
+    padding-top: 4em;
+}
