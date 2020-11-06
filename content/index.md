@@ -3,7 +3,7 @@ Title: Hem
 Description: This is our index page.
 ---
 
-Välkommen
+Välkommen till min portfolio
 ==========================
 
 ![Bild på mig](%assets_url%/img/me.jpg)
