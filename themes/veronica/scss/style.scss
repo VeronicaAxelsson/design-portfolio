@@ -1,0 +1,24 @@
+//Normalizer
+@import '../../node_modules/normalize.css/normalize';
+
+//Variables
+@import 'variables';
+
+//Font-awsome
+@import '../../shared/fontawesome/scss/fontawesome';
+$fa-font-path: '../../shared/fontawesome/webfonts';
+@import '../../shared/fontawesome/scss/brands';
+@import '../../shared/fontawesome/scss/solid';
+@import '../../shared/fontawesome/scss/regular';
+
+
+// Min gamla style i css-filer
+// @import 'former-style';
+// @import 'nav';
+
+//Typography
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Xanh+Mono&display=swap');
+@import 'typography';
+
+// Parts
+@import 'header';

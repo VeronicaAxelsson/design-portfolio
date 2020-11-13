@@ -1,7 +1,7 @@
 ---
-Title: Exempel
+Title: Example
 Description: Markdown examples.
-# hidden: true
+hidden: true
 ---
 
 Theme Styling Test
