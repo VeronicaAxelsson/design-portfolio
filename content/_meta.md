@@ -2,7 +2,15 @@
 Logo: image/leaf_256x256.png
 Tagline: Min portfolio
 Social:
-    - title: Link till sidans github repo.
+    - title: Länk till sidans github repo.
       url: https://github.com/VeronicaAxelsson/design-portfolio
       icon: fab fa-github
+
+    - title: Länk till kurssidan.
+      url: https://dbwebb.se/kurser/design-v3
+      icon: fas fa-leaf
+
+    - title: Länk till min instagram.
+      url: https://www.instagram.com/veronikamedc/
+      icon: fab fa-instagram
 ---
