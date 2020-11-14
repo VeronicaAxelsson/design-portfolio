@@ -21,4 +21,8 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 @import 'typography';
 
 // Parts
+@import 'layout';
+@import 'nav';
 @import 'header';
+@import 'footer';
+@import 'content';

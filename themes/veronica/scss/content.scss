@@ -1,0 +1,42 @@
+.container {
+    max-width: 50em;
+    padding: 1.5em;
+    margin: 0 auto;
+    text-align: justify;
+
+    ul {
+        padding: 2em;
+        padding-top: 0.5em;
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
+
+    img {
+        display: inline-block;
+        max-width: 40em * 0.33;
+        margin: 2em;
+        float: right;
+        box-shadow: 3px 3px rgba(158, 158, 158, 0.6);
+    }
+
+    p {
+        display: inline-block;
+        max-width: 45em;
+    }
+
+    h1 {
+        text-align: left;
+    }
+}
+
+@media (max-width: 45em) {
+    .container {
+        text-align: left;
+    }
+
+    .container img {
+        float: none;
+    }
+}
