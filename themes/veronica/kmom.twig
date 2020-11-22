@@ -23,9 +23,6 @@
 <!-- "Widescreen-mode" can be activated in portfolio/config/config.yml -->
 <body{% if config.theme_config.widescreen %} class="widescreen"{% endif %}>
     <header class="site-header">
-        <!-- <div class="hero-img">
-            <img class="hero-img" src="{{ base_url }}/image/mountains2.jpg?sc=banner1&a=40,0,0,0">
-        </div> -->
         <div class="logo">
             <h2>Veronica Axelsson</h2>
             <p>- Portfolio</p>
@@ -47,12 +44,18 @@
                 </ul>
             </div>
         </div>
-        <!-- <div class="flash-region">
-          <img class="flash-img" src="{{ base_url }}/image/mountains.jpg?sc=banner1&a=40,0,0,0">
-        </div> -->
     </header>
+    <div class="side-nav">
+        <ul>
+            {% for page in pages("report") if page.title and not page.hidden %}
+            <li{% if page.id == current_page.id %} class="active" {% endif %}>
+                <a href="{{ page.url }}">{{ page.title }}</a>
+            </li>
+            {% endfor %}
+        </ul>
+    </div>
     <div class="main" id="main" role="main">
-        <div class="container">
+        <div class="kmom-wrapper">
             {{ content }}
         </div>
     </div>

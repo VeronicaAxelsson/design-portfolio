@@ -6705,3 +6705,6 @@ body {
     float: none;
   }
 }
+.wrapper {
+  display: grid;
+}

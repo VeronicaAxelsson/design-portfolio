@@ -1,5 +1,5 @@
 * {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 h1,
@@ -8,7 +8,12 @@ h3,
 h4,
 h5,
 h6, {
-    font-family: 'Xanh Mono', serif;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: normal;
+}
+
+h1 {
+    font-size: 46px;
 }
 
 html {
@@ -26,7 +31,7 @@ a {
     text-decoration: none;
 }
 
-@media (min-width: 45em) {
+@media (min-width: 767px) {
     html {
         font-size: 112.5%;
     }
