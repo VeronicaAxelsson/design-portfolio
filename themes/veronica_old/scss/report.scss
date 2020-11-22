@@ -1,0 +1,49 @@
+.landingpage {
+    display: grid;
+    gap: 1em 1em;
+}
+
+.landingpage h1 {
+    grid-column: span 3;
+    justify-self: center;
+}
+
+.kmom-box {
+    grid-column: span 1;
+    border: solid 1px $main-green;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 1px 1px #6d6d6d;
+}
+
+.kmom-box.project {
+    grid-column: span 3;
+}
+
+.kmom-box h3 {
+    font-family: 'Montserrat', sans-serif;
+    background-color: lighten($main-green, 15%);
+    text-shadow: 2px 1px $main-green;
+    padding: 0.5em;
+}
+
+.to-kmom {
+    place-self: center;
+    font-size: 36px;
+    margin: 0.5em;
+}
+
+@media (max-width: 767px) {
+    .kmom-box {
+        grid-column: span 4;
+        justify-self: center;
+        width: 15em;
+    }
+
+    .kmom-box.project {
+        grid-column: span 4;
+        justify-self: center;
+    }
+}

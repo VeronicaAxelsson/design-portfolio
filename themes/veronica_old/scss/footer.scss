@@ -1,0 +1,22 @@
+.site-footer {
+    background-color: $main-green;
+    margin-top: 3em;
+
+    .container {
+        text-align: center;
+    }
+
+    p {
+        padding-top: 4em;
+    }
+
+    .social {
+        padding: 1em;
+        padding-top: 0;
+        font-size: 2rem;
+    }
+
+    a:hover {
+        text-decoration: none;
+    }
+}
