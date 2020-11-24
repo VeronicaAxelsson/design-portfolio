@@ -28,8 +28,35 @@ $pico = new Pico(
     'themes/'   // themes dir
 );
 
+if (isset($_GET["action"])) {  // om inte formuläret är satt kollas inte ifsatsen
+    if ($_GET["action"] == "theme") { // Då ska temat uppdateras
+        $previousValue = isset($_SESSION["theme"]) ? $_SESSION["theme"] : null; //har temat angivits så sätts temat annars null.
+
+        if ($previousValue == "dark") {
+            unset($_SESSION["theme"]);
+        } else {
+            $_SESSION["theme"] = dark;
+        }
+
+        $url = $_SERVER["REQUEST_SCHEME"] . "://" . $_SERVER["HTTP_HOST"] . $_SERVER["PHP_SELF"];
+        //Denna url byggs på nuvarande url: protkollet . ..// . basdomänen . sökvväg till filen
+        $url = preg_replace("/index.php\//", "", $url); //letar upp index.php och / efter och ta bort, så det inte blir knasigt på undersidor.
+        header("Location: $url");
+    }
+
+    if ($_GET["action"] == "session_destroy") {
+        session_destroy();  //då sessionen förrstörs kommer vi (med hjälp av config några rader upp, ladda om ramverket och starta ny session.)
+        $url = $_SERVER["REQUEST_SCHEME"] . "://" . $_SERVER["HTTP_HOST"] . $_SERVER["PHP_SELF"];
+        //Denna url byggs på nuvarande url: protkollet . ..// . basdomänen . sökvväg till filen
+        $url = preg_replace("/index.php\//", "", $url); //letar upp index.php och / efter och ta bort, så det inte blir knasigt på undersidor.
+        header("Location: $url");
+    }
+}
+
 // override configuration?
-//$pico->setConfig(array());
+$pico->setConfig(array(
+    'session' => $_SESSION //Lägger in globala varibeln för session i ramverket, så det kan nås i twig
+));
 
 // run application
 echo $pico->run();
