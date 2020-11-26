@@ -12,10 +12,12 @@ h5,
 h6, {
     font-family: 'Open Sans Condensed', sans-serif;
     font-weight: normal;
+    color: $headline-color;
 }
 
 h1 {
     font-size: 46px;
+    color: $headline-color;
 }
 
 html {
@@ -26,10 +28,11 @@ p {
     font-size: $font-size;
     line-height: $line-height;
     margin-bottom: $base-line;
+    color: $font-color;
 }
 
 a {
-    color: rgb(0, 0, 0);
+    color: $headline-color;
     text-decoration: none;
 }
 

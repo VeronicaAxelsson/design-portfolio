@@ -1,24 +1,48 @@
 .landingpage {
     display: grid;
     gap: 1em 1em;
+    padding: 1em;
+    text-align: center;
 }
 
-.landingpage h1 {
+h1 {
     grid-column: span 3;
     justify-self: center;
 }
 
 .kmom-box {
+    height: 10em;
+    width: 10em;
     grid-column: span 1;
-    background: linear-gradient(to bottom right, rgba(155, 166, 218, 0.5), rgba(0, 105, 191, 0.5), rgba(14, 31, 72, 0.5));
+    justify-self: center;
     display: flex;
     flex-direction: column;
-    text-align: center;
-    box-shadow: 2px 1px #6d6d6d;
+    background-color: $kmom-color;
+    border: solid 5px rgb($accent1, 0.7);
+    border-radius: 100px;
+
+    .to-kmom {
+        place-self: center;
+        font-size: 48px;
+        margin: 0.3em;
+        background: linear-gradient(120deg, rgb($accent3, 0.3) 0%, rgb($accent1, 0.9) 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+}
+
+.kmom-box:hover {
+    border: solid 5px saturate($accent2, 20%);
+
+    .to-kmom {
+        background: saturate($accent2, 20%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
 }
 
 .kmom-box.project {
-    grid-column: span 3;
+    grid-column: 2 / 3;
 }
 
 .kmom-box h3 {
@@ -27,17 +51,10 @@
     font-size: 36px;
 }
 
-.to-kmom {
-    place-self: center;
-    font-size: 36px;
-    margin: 0.5em;
-}
-
 @media (max-width: 767px) {
     .kmom-box {
         grid-column: span 4;
         justify-self: center;
-        width: 15em;
     }
 
     .kmom-box.project {

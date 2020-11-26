@@ -2,8 +2,21 @@ $font-size: 0.9em;
 $line-height: 1.2;
 $base-line: $font-size * $line-height;
 
-$main-green: rgb(129, 170, 132);
+$header-img: url('../img/night3.jpg');
+
+$background-color: #e4e8ed;
+$nav-color: #fff;
+$headline-color: #1e1f21;
+$font-color: #1e1f21;
 $theme-color: rgba(2, 39, 92, 0.8);
+$accent1: #e8897d;
+$accent2: #b3c76b;
+$accent3: #6b91c7;
+$accent4: #718723;
+$kmom-color: #fff;
 $black: #000;
+
+$header-filter: grayscale(40%);
+$picture-filter: saturate(110%) brightness(1.2);
 
 $hero-heigt: 3 * (1.26em + 1) + 1.2; // change the threes if you add more links in navbar

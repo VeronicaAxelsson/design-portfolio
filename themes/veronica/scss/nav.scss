@@ -43,18 +43,18 @@
 .nav a {
     text-decoration: none;
     font-family: 'Open Sans Condensed', sans-serif;
-    color: #fff;
+    color: $nav-color;
     font-size: 30px;
 }
 
 .nav {
     .active a {
-        font-size: 36px;
+        color: $accent1;
     }
 }
 
 .nav a:hover {
-    font-size: 36px;
+    color: $accent1;
 }
 
 .nav-toggle {
@@ -84,19 +84,7 @@
         display: block;
         padding: 0.5em 0;
         font-size: 20px;
-        text-shadow: 1px 1px $theme-color;
     }
-
-    .nav {
-        .active a {
-            font-size: 20px;
-        }
-    }
-
-    .nav a:hover {
-        font-size: 24px;
-    }
-
 
     .js .nav-toggle {
         display: block;

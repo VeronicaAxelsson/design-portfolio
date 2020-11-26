@@ -8,6 +8,7 @@
 
     p {
         padding-top: 4em;
+        color: $accent1;
     }
 
     .social {
@@ -16,7 +17,11 @@
         font-size: 2rem;
     }
 
+    a {
+        color: $accent1;
+    }
+
     a:hover {
-        text-decoration: none;
+        color: $accent2;
     }
 }
