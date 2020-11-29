@@ -44,7 +44,8 @@ h1 {
 }
 
 .kmom-box.project {
-    grid-column: 2 / 3;
+    grid-column: 1 / 4;
+    width: 100%;
 }
 
 .kmom-box h3 {
@@ -62,5 +63,6 @@ h1 {
     .kmom-box.project {
         grid-column: span 4;
         justify-self: center;
+        width: 10em;
     }
 }
