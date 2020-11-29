@@ -26,8 +26,9 @@ h1 {
         font-size: 48px;
         margin: 0.3em;
         background: linear-gradient(120deg, rgb($accent3, 0.3) 0%, rgb($accent1, 0.9) 100%);
+        /* stylelint-disable-next-line property-no-vendor-prefix */
         -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
+        color: transparent;
     }
 }
 
@@ -36,8 +37,9 @@ h1 {
 
     .to-kmom {
         background: saturate($accent2, 20%);
+        /* stylelint-disable-next-line property-no-vendor-prefix */
         -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
+        color: transparent;
     }
 }
 

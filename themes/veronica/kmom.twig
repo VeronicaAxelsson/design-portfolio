@@ -49,19 +49,17 @@
             </div>
         </div>
     </header>
-    <div class="side-nav">
-        <ul>
-            {% for page in pages("report") if page.title and not page.hidden %}
-            <li{% if page.id == current_page.id %} class="active" {% endif %}>
-                <a href="{{ page.url }}">{{ page.title }}</a>
-            </li>
-            {% endfor %}
-        </ul>
-    </div>
-    <div class="main" id="main" role="main">
-        <div class="kmom-wrapper">
-            {{ content }}
+    <div class="kmom-wrapper">
+        <div class="side-nav">
+            <ul>
+                {% for page in pages("report") if page.title and not page.hidden %}
+                <li{% if page.id == current_page.id %} class="active" {% endif %}>
+                    <a href="{{ page.url }}">{{ page.title }}</a>
+                </li>
+                {% endfor %}
+            </ul>
         </div>
+        {{ content }}
     </div>
     <footer class="site-footer">
         <div class="container">

@@ -1,4 +1,4 @@
-$font-size: 0.9em;
+$font-size: 1.2em;
 $line-height: 1.2;
 $base-line: $font-size * $line-height;
 
@@ -17,7 +17,6 @@ $accent4: #718723;
 $kmom-color: #fff;
 $black: #000;
 
-$header-filter: grayscale(40%);
 $picture-filter: saturate(110%) brightness(1.2);
 
 $hero-heigt: 3 * (1.26em + 1) + 1.2; // change the threes if you add more links in navbar

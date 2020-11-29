@@ -1,17 +1,21 @@
 .kmom-wrapper {
+    grid-column: 1 / 4;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 5fr;
     grid-template-rows: auto auto;
     gap: 1em 1em;
+    margin: 1em;
 
     h1 {
-        grid-column: span 3;
-        justify-self: center;
+        grid-column: 2 / 3;
+        justify-self: start;
     }
 
     p {
-        grid-column: span 3;
+        grid-column: 2 / 3;
         grid-row: 2 / 3;
+        justify-self: start;
+        padding-right: 10em;
     }
 }
 
@@ -19,7 +23,6 @@
     grid-column: 1 / 2;
     grid-row: 2 / 3;
     justify-self: center;
-    margin-top: 4em;
 
     .active a {
         color: $accent1;
@@ -42,5 +45,6 @@
 
     .kmom-wrapper p {
         grid-column: span 3;
+        padding-right: 0;
     }
 }
