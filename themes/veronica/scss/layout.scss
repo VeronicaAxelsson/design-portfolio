@@ -26,8 +26,14 @@ body {
 }
 
 .main {
-    grid-column: 2 / 3;
+    grid-column: span 3;
     grid-row: 2 / 3;
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+}
+
+.container {
+    grid-column: 2 / 3;
 }
 
 .site-header {

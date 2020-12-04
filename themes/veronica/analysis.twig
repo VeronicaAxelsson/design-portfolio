@@ -49,18 +49,20 @@
             </div>
         </div>
     </header>
-    <div class="analysis-wrapper">
-        <div class="side-nav">
-            <ul>
-                {% for page in pages("analysis") if page.title and not page.hidden %}
-                <li{% if page.id == current_page.id %} class="active" {% endif %}>
-                    <a href="{{ page.url }}">{{ page.title }}</a>
-                </li>
-                {% endfor %}
-            </ul>
-        </div>
-        <div class="content">
-            {{ content }}
+    <div class="main" id="main" role="main">
+        <div class="analysis-wrapper">
+            <div class="side-nav">
+                <ul>
+                    {% for page in pages("analysis") if page.title and not page.hidden %}
+                    <li{% if page.id == current_page.id %} class="active" {% endif %}>
+                        <a href="{{ page.url }}">{{ page.title }}</a>
+                    </li>
+                    {% endfor %}
+                </ul>
+            </div>
+            <div class="content">
+                {{ content }}
+            </div>
         </div>
     </div>
     <footer class="site-footer">
