@@ -6,16 +6,17 @@
     gap: 1em 1em;
     margin: 1em;
 
+    h1 {
+        justify-self: start;
+    }
+
     .content {
         grid-column: 2 / 3;
         grid-row: 2 / 3;
-        justify-self: start;
-        padding-right: 10em;
-        margin: 1em;
-    }
-
-    .side-nav {
-        margin-top: 4em;
+        margin-right: 10em;
+        padding: 1em;
+        box-shadow: $content-shadow;
+        border: 5px rgba($accent1, 0.4) solid;
     }
 
     h2 {
@@ -30,23 +31,23 @@
     img {
         padding: 0.5em;
         border: solid 1px $accent3;
-        max-width: 20em;
+        max-width: 100%;
         display: block;
         margin-left: auto;
         margin-right: auto;
     }
 
     .load-image {
-        max-width: 30em;
-        margin-left: 0;
-        margin-right: 0;
-        margin-top: 1em;
-        margin-bottom: 1em;
+        margin: 1em;
+        max-width: 100%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .color-table {
         margin: 1em;
-        max-width: 20em;
+        max-width: 100%;
         display: block;
         margin-left: auto;
         margin-right: auto;
@@ -57,7 +58,7 @@
     .analysis-wrapper {
         .content {
             grid-column: span 3;
-            padding-right: 0;
+            margin-right: 0;
         }
 
         .side-nav {

@@ -5,23 +5,26 @@
     background-position: center;
     background-size: cover;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6);
 }
 
 .logo {
     margin: 1em;
+    padding: 1em;
     grid-column: 1 / 2;
     align-self: center;
     justify-self: end;
+    text-shadow: 1px 1px $theme-color;
 
     h2 {
         font-size: 36px;
-        color: #fff;
+        color: $accent1;
     }
 
     p {
         font-style: italic;
         font-size: 14px;
-        color: #fff;
+        color: $accent1;
     }
 }
 
