@@ -23,7 +23,7 @@ Resultat
 -----------------------
 <br>
 **Vimla**
-<img class="page-img" src="%assets_url%/img/vimla-fullscreen.png" alt="Vimlas hemsida">
+<img class="page-img" src="%assets_url%/img/vimla-fullscreen.jpg" alt="Vimlas hemsida">
 
 <div class="color-table">
 <table style="border-spacing: 4px; border-collapse: separate">
@@ -43,7 +43,7 @@ Resultat
 Vimlas startsida är ganska intensiv, med många färger och starka rubriker. När man går djupare på sidan för att nå utförligare information blir sidorna mer avskalade och tydliga. Färgerna har jämnt avstånd till varandra i färghjulet, i formen av en kvadrat.
 
 <div class="color-table">
-<img class="page-img" src="%assets_url%/img/vimla-color-circle.png" alt="Vimlas färgschema">
+<img class="page-img" src="%assets_url%/img/vimla-color-circle.jpg" alt="Vimlas färgschema">
 <p class="figure-text">Vimlas färgpalett, bortsett från deras djupa lila, ligger nära en perfekt kvadrat.</p>
 </div>
 
@@ -53,7 +53,7 @@ När vi kommer till Vimlas hemsida möts vi av lekfulla bilder och intensiva rub
 
 **Telia**
 
-<img class="page-img" src="%assets_url%/img/telia-fullscreen.png" alt="Telias hemsida">
+<img class="page-img" src="%assets_url%/img/telia-fullscreen.jpg" alt="Telias hemsida">
 
 <div class="color-table">
 <table style="border-spacing: 4px; border-collapse: separate">
@@ -72,7 +72,7 @@ När vi kommer till Vimlas hemsida möts vi av lekfulla bilder och intensiva rub
 Telias hemsida har ett monokromt färgschema. Hemsidan använder sig utav olika ljushetsgrader av samma lila nyans. Accentfärgerna grön och orange ligger i en perfekt triad till den lila nyansen. Den blå nyansen används till deras bredbandslogotyper, den gröna används till TV-relaterad information och den rosa används till telefonirelaterad information.  
 
 <div class="color-table">
-<img class="page-img" src="%assets_url%/img/telia-color-circle.png" alt="Telias färgschema">
+<img class="page-img" src="%assets_url%/img/telia-color-circle.jpg" alt="Telias färgschema">
 <p class="figure-text">Telias logotypfärg, samt två accentfärger, ligger nära en perfekt triad.</p>
 </div>
 
@@ -82,7 +82,7 @@ Telias design är ganska avskalad. Högst upp till vänster ges vi alternativen 
 
 **Telenor**
 
-<img class="page-img" src="%assets_url%/img/telenor-fullscreen.png" alt="Telenors hemsida">
+<img class="page-img" src="%assets_url%/img/telenor-fullscreen.jpg" alt="Telenors hemsida">
 
 <div class="color-table">
 <table style="border-spacing: 4px; border-collapse: separate">
@@ -100,7 +100,7 @@ Telias design är ganska avskalad. Högst upp till vänster ges vi alternativen 
 Telenor har två olika nyanser av blå; den ljusare, himmelsblå nyansen på deras logotyp samt en mörkare blå som klär hemsidans knappar. I övrigt är hemsidan framförallt vit, svart och grå med accentfärgen gul. På två ställen hittar vi även en grön nyans för ett miljörelaterat ämne och en persikorosa för ett visst erbjudande. De två färgerna har precis samma mättnad. De färger som verkar vara Telenors standard-accentfärger, ljusblå, persikorosa och gul, ligger i en triad.
 
 <div class="color-table">
-<img class="page-img" src="%assets_url%/img/telenor-color-circle.png" alt="Telenors färgschema">
+<img class="page-img" src="%assets_url%/img/telenor-color-circle.jpg" alt="Telenors färgschema">
 <p class="figure-text">Telenors färgpalett, om man bortser från deras gröna accentfärg, ligger nära en perfekt triad.</p>
 </div>
 

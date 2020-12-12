@@ -60,9 +60,9 @@ När man öppnar skolans förstasida upplevs BTHs hemsida som snabbast. Det kan 
 
 Referenser
 -----------------------
-**PageSpeed Insights:** https://developers.google.com/speed/pagespeed/insights/
+ *[PageSpeed Insights](https://docs.google.com/spreadsheets/d/1szMszEo4tsNvL_pjnmSW9BPmonXNYUlVQA0HmHEudh4/edit?usp=sharing)*
 
-Jakob Nielsen (1993). Response Times: The 3 Important Limits (https://www.nngroup.com/articles/response-times-3-important-limits/)
+Jakob Nielsen (1993). Response Times: The 3 Important Limits [https://www.nngroup.com/articles/response-times-3-important-limits/](https://www.nngroup.com/articles/response-times-3-important-limits/)
 
 Övrigt
 -----------------------
