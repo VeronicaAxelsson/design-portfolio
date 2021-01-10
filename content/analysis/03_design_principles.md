@@ -26,12 +26,14 @@ En musikers hemsidas syfte är att ge användaren möjligheten att lyssna på he
 
 **Andrew Huang**
 <br>
+![Andrew Huang](%base_url%/image/huang-780.jpg){.load-image}
 Andrew Huang gör väldigt experimentell, elektronisk musik som innefattar mycket sampling. Hans hemsida ger ett väldigt lekfullt intryck via valet av färger samt bilden av honom som möter användaren, i vilken han samplar en ananas. Han hänvisar väldigt tidigt till “events”, därefter hans videor och därefter uppmanas man att prenumerera på hans nyhetsbrev.
 
 Huang har presenterat sina bilder i vad som upplevs som en diagonal linje neråt, så att man uppmanas att scrolla. Färgerna är väldigt kontrastrika. Sidan upplevs som balanserad eftersom bilderna och bildtexten är på omväxlande vänster och höger sida, alternativt är båda centrerade. Sidan i helhet känns balanserad, men även varje färgblock upplevs så, eftersom bild och text allt tar ut varandra. Även flera av hans undersidor är fokuserade i centrum på sidan. Användandet av färger och balanserade element ger sidorna en upplevelse av enhetlighet.
 
 **Imogen Heap**
 <br>
+![Imogen Heap](%base_url%/image/heap-780.jpg){.load-image}
 Imogen Heaps hemsida är inte helt självklar att hitta på, men den är visuellt intressant och interaktiv, så man vill stanna. På det viset både hjälper och stjälper designen sidans syfte. Dess experimentella ådra reflekterar hennes musikstil väl. Man möts av en ovanlig navigering i form av en assymetrisk, galaxliknande samling tomtebloss eller nåt. Den skapar tydlig emfas genom att dra blicken till sig i den mörka, rymdliknande bakgrunden. Undersidorna är väldigt olika och ger inte en känsla av total enhetlighet.
 
 Bland designprinciperna hittar man gott om rörelse på hemsidan, bland annat i tomteblossnavigeringen som man dessutom kan flytta med muspekaren. Den ger en slags sprakande textur.
@@ -40,6 +42,7 @@ Vill man hitta vart i världen hon har evenemang kan man gå till rubriken Earth
 
 **Troye Sivan**
 <br>
+![Troye Sivan](%base_url%/image/sivan-780.jpg){.load-image}
 Troye Sivans hemsida har ett väldigt tydligt syfte i att sälja hans senaste album. Hela sidan är egentligen bilden från hans senaste album och den byts för varje gång han släpper musik. Sidstrukturen är väldigt simpel då den förutom bilderna i princip bara innehåller navigering, och något varierande innehåll på undersidorna. Undersidorna är också väldigt bildfokuserade, det finns egentligen inga färger som inte tillhör en bild. Detta gör att sidan blir enhetlig. Att alla undersidor med mycket innehåll har samma scrollfunktion bidrar ytterligare till detta. Scrollfunktionen ger också rörelse på sidan.
 
 Sidan har gott om textur i hur grynig själva startsidans bakgrundsbild är. Varje bild på sidan har dock sin egen textur eftersom det är olika bilder på sidan.

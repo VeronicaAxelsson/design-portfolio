@@ -33,7 +33,7 @@ De skulle kunna spara ca 5 sekunder på att optimera sina bilder.
 **LIU**
 <br>
 De skulle kunna spara ca 4 sekunder på att ta bort JavaScript-kod som inte används, framförallt YouTube-spelaren.
-![LIUs hemsida](%base_url%/image/LIU.png?648&save-as=jpg){.load-image}
+![LIUs hemsida](%base_url%/image/LIU.png?w=648&save-as=jpg){.load-image}
 
 *[Länk till excel-ark med mätvärden.](https://docs.google.com/spreadsheets/d/1szMszEo4tsNvL_pjnmSW9BPmonXNYUlVQA0HmHEudh4/edit?usp=sharing)*
 

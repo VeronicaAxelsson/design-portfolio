@@ -30,9 +30,31 @@ Analyser
 <div class="kmom-box">
     <h2>Analys 3</h2>
 
-    <a class="to-kmom" href="analysis/03_design_principles" title="design-principles" role="button">
+    <a class="to-kmom" href="analysis/03_design_principles" title="Design-principles" role="button">
         <i class="fas fa-angle-double-right"></i>
-        <span class="sr-only">design-principles</span>
+        <span class="sr-only">Design-principles</span>
+    </a>
+
+</div>
+
+
+<div class="kmom-box">
+    <h2>Analys 10</h2>
+
+    <a class="to-kmom" href="analysis/10_webbplatsdesign" title="Website-design" role="button">
+        <i class="fas fa-angle-double-right"></i>
+        <span class="sr-only">Website-design</span>
+    </a>
+
+</div>
+
+
+<div class="kmom-box">
+    <h2>Analys 11</h2>
+
+    <a class="to-kmom" href="analysis/11_design-och-webbplatser" title="Design-and-websites" role="button">
+        <i class="fas fa-angle-double-right"></i>
+        <span class="sr-only">Design-and-websites</span>
     </a>
 
 </div>
