@@ -102,7 +102,7 @@ I analys 2 skrev min grupp att gränsen för den absoluta laddningstiden enligt 
 Referenser
 -----------------------
 
-PageSpeed Insight: https://developers.google.com/speed/pagespeed/insights/?hl=sv
+[PageSpeed Insight](https://developers.google.com/speed/pagespeed/insights/?hl=sv)
 
 Övrigt
 -----------------------
